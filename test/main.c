@@ -23,12 +23,19 @@ int main()
 //Q 2
 
     char lower;
-    printf("Enter any Uppercase charecter \n");
+    printf("Enter any Uppercase charecter :");
     scanf("%c",&lower);
-    printf("Here is the Lowercase character %c:",lower+32);
+    printf("Here is the Lowercase character %c:\n",lower+32);
 
 
+//Q 3
+    int celcius;
+    float fahrenheit_temp;
+    printf("Enter a Fahrenheit temparature :");
+    scanf("%d",&celcius);
 
+    fahrenheit_temp = (celcius*9/5)+32;
+    printf("(%d*9/5)+32=%f This is the Fahrenheit temparature",celcius,fahrenheit_temp);
 
     getch ();
 }

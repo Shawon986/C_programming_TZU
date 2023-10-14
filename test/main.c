@@ -29,13 +29,13 @@ int main()
 
 
 //Q 3
-    int celcius;
-    float fahrenheit_temp;
-    printf("Enter a Fahrenheit temparature :");
-    scanf("%d",&celcius);
+    int fahrenheit;
+    float celcius_temp;
+    printf("Enter a fahrenheit temparature :");
+    scanf("%d",&fahrenheit);
 
-    fahrenheit_temp = (celcius*9/5)+32;
-    printf("(%d*9/5)+32=%f This is the Fahrenheit temparature",celcius,fahrenheit_temp);
+    celcius_temp = 5*(fahrenheit-32)/9;
+    printf("(5*(%d-32)/9)=%f This is the celcius temparature",fahrenheit,celcius_temp);
 
     getch ();
 }

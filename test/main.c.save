@@ -33,9 +33,10 @@ int main()
     float celcius_temp;
     printf("Enter a fahrenheit temparature :");
     scanf("%d",&fahrenheit);
-
+print
     celcius_temp = 5*(fahrenheit-32)/9;
-    printf("(5*(%d-32)/9)=%celcius_temp This is the celcius temparature",fahrenheit,celcius_temp);
+    printf("(5*(%d-32)/9)=%f This is the celcius temparature",fahrenheit,celcius_temp);
+    
 
     getch ();
 }

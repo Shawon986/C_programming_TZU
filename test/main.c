@@ -1,12 +1,13 @@
 #include <stdio.h>
 
+
 int main()
 {
 
 //Q 1
-/*
+
     int first,second,third,sum,multiply,average;
-     printf("Enter three integers: ");
+    printf("Enter three integers: ");
     scanf("%d %d %d", &first, &second, &third);
 
     // calculate the sum and product and average
@@ -18,7 +19,7 @@ int main()
     printf("%d + %d +%d = %d is the sum number \n", first, second,third, sum);
     printf("%d * %d *%d = %d is the product number\n", first,second,third, multiply);
     printf("(%d + %d + %d)/3=%d is the average number \n",first,second,third,average);
-*/
+
 
 //Q 2
 
@@ -29,13 +30,19 @@ int main()
 
 
 //Q 3
-    int fahrenheit;
+    int fahrenheit;   
     float celcius_temp;
     printf("Enter a fahrenheit temparature :");
     scanf("%d",&fahrenheit);
 
     celcius_temp = 5*(fahrenheit-32)/9;
     printf("(5*(%d-32)/9)=%f This is the celcius temparature",fahrenheit,celcius_temp);
+
+   
+
+
+
+
 
     getch ();
 }

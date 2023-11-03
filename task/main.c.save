@@ -2,8 +2,12 @@
 #include <stdlib.h>
 
 int main(void)
+
 {
-    /*int number ;
+    
+// Calculate even and odd
+
+    int number ;
     printf("Enter an integer number ");
     scanf("%i",&number);
 
@@ -14,7 +18,9 @@ int main(void)
     else {
             printf("%i is an odd number",number);
     }
-    */
+
+// Calculate leap year
+
     int year;
    printf("Enter a year: ");
    scanf("%d", &year);
@@ -38,6 +44,17 @@ int main(void)
       printf("%d is not a leap year.", year);
    }
 
+// feet to metre
 
-    return 0;
+   float feet,metres ;
+   printf("Enter the length in feet : ");
+   scanf("%f", &feet);
+
+   metres = feet / 3.28;
+   printf("%f is in m");
+
+   getch ();
+
+
+
 }

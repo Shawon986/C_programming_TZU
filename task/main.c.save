@@ -4,7 +4,7 @@
 int main(void)
 
 {
-    
+
 // Calculate even and odd
 
     int number ;
@@ -51,7 +51,7 @@ int main(void)
    scanf("%f", &feet);
 
    metres = feet / 3.28;
-   printf("%f is in m");
+   printf("%.2f Feet = %.2f Metres",feet,metres);|
 
    getch ();
 

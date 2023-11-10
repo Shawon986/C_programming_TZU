@@ -3,6 +3,7 @@
 
 int main()
 {
+
     //task 1
 
       // Declare variables for coefficients
@@ -59,5 +60,10 @@ int main()
     // Output the sorted integers separated by spaces
     printf("Sorted: %d %d %d\n", x, y, z);
 
+
+
+
+
     return 0;
 }
+

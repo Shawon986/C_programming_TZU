@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include <math.h>
+#include <stdlib.h>
 
-int main() {
-    // Declare variables for coefficients
+int main()
+{
+      // Declare variables for coefficients
     float a, b, c;
 
     // Prompt the user to enter coefficients
@@ -18,18 +19,14 @@ int main() {
     // Calculate the discriminant
     float delta = b * b - 4 * a * c;
 
-    // Check if the roots are real
-    if (delta >= 0) {
-        // Calculate the two roots
-        float x1 = (-b + sqrt(delta)) / (2 * a);
-        float x2 = (-b - sqrt(delta)) / (2 * a);
+    // Calculate the two roots
+    float x1 = (-b + sqrt(delta)) / (2 * a);
+    float x2 = (-b - sqrt(delta)) / (2 * a);
 
-        // Print the roots in the required format with two decimal places
-        printf("%.2f %.2f\n", fmax(x1, x2), fmin(x1, x2));
-    } else {
-        // If the discriminant is negative, roots are complex
-        printf("The roots are complex and cannot be represented in this format.\n");
-    }
+    // Print the roots in the required format
+    printf("Roots: %.2f %.2f\n", fmax(x1, x2), fmin(x1, x2));
+    
+    //task 2
 
     return 0;
 }
